@@ -1,0 +1,11 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16dp" android:layout_marginVertical="8dp" app:cardCornerRadius="8dp" app:cardElevation="4dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="16dp">
+        <ImageView android:id="@+id/ivMascotaFoto" android:layout_width="72dp" android:layout_height="72dp" android:background="@android:color/darker_gray" android:scaleType="centerCrop" android:contentDescription="Foto de mascota"/>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="16dp" android:orientation="vertical">
+            <TextView android:id="@+id/tvNombreMascota" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nombre Mascota" android:textColor="@android:color/black" android:textSize="18sp" android:textStyle="bold"/>
+            <TextView android:id="@+id/tvRazaMascota" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Raza" android:textColor="@android:color/black" android:textSize="14sp"/>
+            <TextView android:id="@+id/tvEdadMascota" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Edad" android:textColor="@android:color/darker_gray" android:textSize="14sp"/>
+        </LinearLayout>
+        <Button android:id="@+id/btnVerActividad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="@android:color/holo_blue_light" android:text="Ver Actividad" android:textColor="@android:color/white" android:textSize="12sp" android:contentDescription="Ver actividad de la mascota"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

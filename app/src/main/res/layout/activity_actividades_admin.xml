@@ -1,0 +1,16 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@android:color/holo_blue_light" android:padding="16dp" tools:context=".ActividadesAdmin">
+    <!--  Logo  -->
+    <TextView android:id="@+id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⚙️ AdminPanel" android:textSize="26sp" android:textStyle="bold" android:textColor="@color/white" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="50dp"/>
+    <!--  Opción 1: Gestión de Usuarios  -->
+    <androidx.cardview.widget.CardView android:id="@+id/cardGestionUsuarios" android:layout_width="match_parent" android:layout_height="80dp" app:cardCornerRadius="16dp" app:cardElevation="4dp" android:clickable="true" android:foreground="?attr/selectableItemBackground" app:layout_constraintTop_toBottomOf="@id/logo" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="20dp" android:background="@color/white">
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="👥 Gestión de usuarios" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/black"/>
+    </androidx.cardview.widget.CardView>
+    <!--  Opción 2: Generación de Reportes  -->
+    <androidx.cardview.widget.CardView android:id="@+id/cardGenerarReportes" android:layout_width="match_parent" android:layout_height="80dp" app:cardCornerRadius="16dp" app:cardElevation="4dp" android:clickable="true" android:foreground="?attr/selectableItemBackground" app:layout_constraintTop_toBottomOf="@id/cardGestionUsuarios" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="20dp" android:background="@color/white">
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="📊 Generación de reportes" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/black"/>
+    </androidx.cardview.widget.CardView>
+    <!--  Opción 3: Control de Alertas  -->
+    <androidx.cardview.widget.CardView android:id="@+id/cardControlAlertas" android:layout_width="match_parent" android:layout_height="80dp" app:cardCornerRadius="16dp" app:cardElevation="4dp" android:clickable="true" android:foreground="?attr/selectableItemBackground" app:layout_constraintTop_toBottomOf="@id/cardGenerarReportes" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="20dp" android:background="@color/white">
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="🚨 Control de alertas" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/black"/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

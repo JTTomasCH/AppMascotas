@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Spinner para seleccionar la mascota -->
+        <Spinner
+            android:id="@+id/spinnerMascotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Spinner para seleccionar el tipo de cita médica -->
+        <Spinner
+            android:id="@+id/spinnerTipoCita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Fecha de la cita -->
+        <EditText
+            android:id="@+id/etFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha"
+            android:focusable="false"
+            android:inputType="none"
+            android:layout_marginTop="8dp" />
+
+        <!-- Hora de la cita -->
+        <EditText
+            android:id="@+id/etHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hora"
+            android:focusable="false"
+            android:inputType="none"
+            android:layout_marginTop="8dp" />
+
+        <!-- Notas adicionales -->
+        <EditText
+            android:id="@+id/etNotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notas adicionales"
+            android:minLines="3"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="8dp" />
+
+        <!-- Botón para agendar cita -->
+        <Button
+            android:id="@+id/btnAgendarCita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agendar Cita"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

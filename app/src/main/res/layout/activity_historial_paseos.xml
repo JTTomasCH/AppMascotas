@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp" android:background="#FFFFFF">
+    <Button android:id="@+id/btnSeleccionarFecha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Elegir Fecha" android:textColor="@android:color/white" android:backgroundTint="@android:color/holo_blue_light"/>
+    <TextView android:id="@+id/txtFechaSeleccionada" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📅 Fecha seleccionada: -" android:textSize="16sp" android:textColor="@android:color/black" android:paddingTop="8dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerViewPaseos" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="10dp"/>
+</LinearLayout>

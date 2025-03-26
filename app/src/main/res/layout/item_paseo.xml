@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp" android:background="@android:color/holo_blue_light">
+    <TextView android:id="@+id/txtFechaPaseo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📅 Fecha: --/--/----" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" tools:ignore="HardcodedText"/>
+    <TextView android:id="@+id/txtHorario" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⏰ Horario inicio:" android:textSize="14sp" android:textColor="@color/black" android:paddingTop="4dp"/>
+    <TextView android:id="@+id/txtHorariofin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⏰ Horario fin: --:-- - --:--" android:textSize="14sp" android:textColor="@color/black" android:paddingTop="4dp"/>
+    <TextView android:id="@+id/txtDistancia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📏 Distancia: -- km" android:textSize="14sp" android:textColor="@color/black" android:paddingTop="4dp"/>
+    <TextView android:id="@+id/txtEntrenador" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="👤 Entrenador: ---" android:textSize="14sp" android:textColor="@color/black" android:paddingTop="4dp"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PetDaily</string>
+    <string-array name="genero_opciones">
+        <item>hembra</item>
+        <item>macho</item>
+    </string-array>
+    <string-array name="tipo_dato_medico">
+        <item>Vacuna</item>
+        <item>Consulta</item>
+        <item>Medicacion</item>
+        <item>Cirugia</item>
+        <item>Desparacitacion</item>
+    </string-array>
+    <string-array name="rol">
+        <item>Veterinario</item>
+        <item>Entrenador</item>
+        <item>Dueño</item>
+    </string-array>
+
+    <string name="pet_avatar">Foto de la mascota</string>
+</resources>
